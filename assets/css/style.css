@@ -1,0 +1,13 @@
+a {
+    text-decoration: none!important;
+}
+.header {
+    background-color:  white;
+    height: 70px;
+}
+.nav-item {
+    margin-left: 20px;
+}
+.work-container {
+    flex-wrap: wrap;
+}
