@@ -8,6 +8,83 @@ a {
 .nav-item {
     margin-left: 20px;
 }
-.work-container {
+/* .work-container {
     flex-wrap: wrap;
+} */
+/* .card {
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  } */
+/* .card {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    overflow: hidden; /* Added to hide overflowing content */
+    position: relative; /* Added to allow absolutely positioned text */
+ */
+
+.card-title {
+    background-color: #6c757d;
+    color: white;
+    padding: 0.75rem;
+    margin-bottom: 0;
+    border-radius: 0.25rem 0.25rem 0 0;
 }
+.card {
+    width: 200px;
+    height: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+ /* Added to set image as background and adjust the size */
+    .card-img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+/* Added to position the text on top of the image */
+.card-img-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0.75rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background for better readability */
+}
+/* .row {
+    display: flex;
+}
+
+/* .col-10 {
+    flex-basis: 100%;
+    padding: 1em;
+} */
+.container {
+    display: flex;
+    flex-direction: column;
+} 
+
+.row {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+  }
+  .about-me-header {
+    border-right: 2px solid;
+    margin-top: 9px;
+    margin-right: 10px;
+  }
+
+  .card-row {
+    width:100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+  }
