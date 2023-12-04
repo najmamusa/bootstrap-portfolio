@@ -1,4 +1,4 @@
-a {
+/* a {
     text-decoration: none!important;
 }
 .header {
@@ -7,7 +7,7 @@ a {
 }
 .nav-item {
     margin-left: 20px;
-}
+} */
 /* .work-container {
     flex-wrap: wrap;
 } */
@@ -26,14 +26,14 @@ a {
     position: relative; /* Added to allow absolutely positioned text */
  */
 
-.card-title {
+/* .card-title {
     background-color: #6c757d;
     color: white;
     padding: 0.75rem;
     margin-bottom: 0;
     border-radius: 0.25rem 0.25rem 0 0;
-}
-.card {
+} */
+/* .card {
     width: 200px;
     height: 250px;
     border: 1px solid #ccc;
@@ -41,23 +41,23 @@ a {
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin: 10px;
-}
+} */
  /* Added to set image as background and adjust the size */
-    .card-img {
+    /* .card-img {
     width: 100%;
     height: 100%;
     background-size: cover;
     background-position: center;
-}
+} */
 /* Added to position the text on top of the image */
-.card-img-text {
+/* .card-img-text {
     position: absolute;
     bottom: 0;
     left: 0;
     padding: 0.75rem;
     color: white;
-    background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background for better readability */
-}
+    background-color: rgba(0, 0, 0, 0.5); Add a semi-transparent background for better readability */
+
 /* .row {
     display: flex;
 }
